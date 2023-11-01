@@ -41,11 +41,11 @@ public class SimpleApplication {
 	}
 	
 	
-	@GetMapping("/pks")
+	@GetMapping("/initializ")
 	public String getKube()
 	{
-		logger.info("Container Platform to run Packaged or Legacy Apps");
-		return "Container Platform to run Nielsen Apps";
+		logger.info("Application Platform to run any Apps");
+		return "Application Platform to run Any Apps";
 	}
 
 }
