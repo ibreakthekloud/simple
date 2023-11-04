@@ -1,8 +1,0 @@
----
-applications:
-- name: simple
-  path: target/simple-0.0.1-SNAPSHOT.jar
-  buildpack: java_buildpack_offline
-  memory: 1G
-  routes:
-  - route: simple-dev.apps.pcfone.io
