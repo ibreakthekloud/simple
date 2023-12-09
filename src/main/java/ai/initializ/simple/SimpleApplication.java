@@ -17,7 +17,7 @@ public class SimpleApplication {
 		SpringApplication.run(SimpleApplication.class, args);
 	}
 
-	@GetMapping("/initializ")
+	@GetMapping("/initz")
 	public String getInitializ()
 	{
 		logger.info("AI-Driven Unified DevSecOps Application Platform to run any Apps");
