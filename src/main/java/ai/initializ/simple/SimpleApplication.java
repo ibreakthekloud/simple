@@ -29,7 +29,7 @@ public class SimpleApplication {
                             + "</head>"
                             + "<body>"
                             + "    <h1>Launching AI-Driven Development Platform</h1>"
-                            + "    <img src=\"https://revolutionized.com/wp-content/uploads/sites/5/2022/05/rocket-launch-at-sunset.jpg\" alt=\"Rocket Launch\">"
+                            + "    <img src=\"https://revolutionized.com/wp-content/uploads/sites/5/2022/05/rocket-launch-at-sunset.jpg\" alt=\"initializ Launch\">"
                             + "</body>"
                             + "</html>";
 		
