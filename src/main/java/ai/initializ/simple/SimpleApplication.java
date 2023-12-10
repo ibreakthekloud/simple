@@ -20,8 +20,21 @@ public class SimpleApplication {
 	@GetMapping("/initz")
 	public String getInitializ()
 	{
+		
+		// HTML content
+        String htmlContent = "<!DOCTYPE html>"
+                            + "<html>"
+                            + "<head>"
+                            + "    <title>AI-Driven Development Platform</title>"
+                            + "</head>"
+                            + "<body>"
+                            + "    <h1>Launching AI-Driven Development Platform</h1>"
+                            + "    <img src=\"https://revolutionized.com/wp-content/uploads/sites/5/2022/05/rocket-launch-at-sunset.jpg\" alt=\"Rocket Launch\">"
+                            + "</body>"
+                            + "</html>";
+		
 		logger.info("AI-Driven Unified DevSecOps Application Platform to run any Apps");
-		return "AI-Driven Unified DevSecOps Application Platform to run any Apps";
+		return htmlContent;
 	}
 
 }
